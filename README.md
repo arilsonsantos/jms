@@ -41,3 +41,8 @@ e algumas alterações no arquivo de configuração standalone-full.xml do wildf
                 <module name="org.hornetq"/>
                 <module name="org.jboss.remoting-jmx"/>
             </global-modules>
+
+#### Para executar o envio para a fila e consumo da fila
+
+<p>Ao startar a aplicação, se o Agendamento não estiver ativado, você pode executar 
+o envio para a fila através da URL http://localhost:8080/jms</p>
